@@ -92,7 +92,7 @@ const ThirdSection = () => {
           </h2>
           <div className="flex flex-col gap-3">
             {slides[currentSlide].content.map((text, idx) => (
-              <p key={idx} className="font-inter leading-[24px]">
+              <p key={idx} className="font-inter leading-[24px] text-gray-100">
                 {text}
               </p>
             ))}

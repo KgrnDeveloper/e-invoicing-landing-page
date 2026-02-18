@@ -14,7 +14,7 @@ const Home = () => {
               Help Your SME Customers Navigate AI. Stay Relevant. Build Trust.
               Earn Revenue.
             </h2>
-            <p className="text-xl">
+            <p className="text-xl text-gray-100">
               AI is becoming one of the biggest sources of uncertainty for SMEs.
               Many are quietly trying to make sense of what it means for their
               business, even if they're not asking directly. Partner with
@@ -46,7 +46,7 @@ const Home = () => {
               See What Your Customers Experience When you Introduce Them to
               Servita SME
             </h2>
-            <p className="text-lg px-20">
+            <p className="text-lg px-20 text-gray-100">
               This is a snapshot of the outcomes from our AI Opportunity
               Assessment. It shows some of what we'll deliver to your customers,
               from sector disruption and value potential to a practical 90-day
