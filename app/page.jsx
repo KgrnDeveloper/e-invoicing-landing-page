@@ -2,6 +2,11 @@ import ThirdSection from "@/components/ThirdSection";
 import Link from "next/link";
 import { FaRegHandshake, FaRegLightbulb } from "react-icons/fa";
 import { BiError } from "react-icons/bi";
+import { PiStorefrontFill } from "react-icons/pi";
+import { FaCalendarDays } from "react-icons/fa6";
+import { IoMdPeople } from "react-icons/io";
+import { FaEarthAsia } from "react-icons/fa6";
+import { PiHeadsetBold } from "react-icons/pi";
 import React from "react";
 
 const Home = () => {
@@ -155,12 +160,115 @@ const Home = () => {
           </div>
         </div>
         <div className="mt-10">
-          <p className="font-argent text-3xl">That's exactly where Servita fits.</p>
+          <p className="font-argent text-3xl">
+            That's exactly where Servita fits.
+          </p>
         </div>
       </div>
       {/* Sixth section  */}
       <div>
-        
+        <div className="w-full flex justify-center items-center pt-12 pb-20">
+          <div className="w-[70%] text-center">
+            <div className="flex flex-col gap-6">
+              <h2 className="text-6xl font-argent">
+                What You're Offering Your Customers
+              </h2>
+              <p className="font-inter text-lg font-normal text-white/80">
+                Servita's AI Opportunity Assessment gives SMEs clear, practical
+                direction on how AI applies to their business, where it creates
+                real value, and what to avoid. It's not consulting. It's not
+                software. And it's not generic advice. It's clarity. Delivered
+                in days. It allows them to make informed decisions before
+                committing to tools, projects, or spend.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div className="grid md:grid-cols-3 gap-10 text-center">
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <div className="text-4xl">
+                  <PiStorefrontFill /> <span></span>
+                </div>
+              </div>
+              <h3 className="text-3xl font-semibold leading-snug">
+                Independent and <br /> vendor neutral
+              </h3>
+            </div>
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <div className="text-4xl">
+                  <FaRegLightbulb /> <span></span>
+                </div>
+                </div>
+                <h3 className="text-3xl font-semibold leading-snug">
+                Practical and <br /> business focused
+                </h3>
+              
+            </div>
+            <div className="space-y-4">
+              <div className="flex justify-center">
+                <div className="text-4xl">
+                  <FaCalendarDays /> <span></span>
+                </div>
+              </div>
+              <h3 className="text-3xl font-semibold leading-snug">
+                Delivered in 5 <br /> business days
+                </h3>
+            </div>
+          </div>
+           <div className="grid md:grid-cols-2 gap-16 text-center mt-20">
+
+          <div  className="space-y-6">
+            <div className="flex justify-center">
+              
+                <div className="text-4xl">
+                   <IoMdPeople /> <span></span>
+                </div>
+              </div>
+              <h3 className="text-3xl font-semibold leading-snug">
+                Designed specifically <br /> for SMEs
+              </h3>
+          </div>
+          <div className="space-y-6">
+             <div className="flex justify-center">
+              <div className="text-4xl">
+                   <FaEarthAsia /> <span></span>
+                </div>
+             </div>
+             <h3 className="text-3xl font-semibold leading-snug">
+                Trusted by enterprises <br /> and governments globally
+              </h3>
+          </div>
+        </div>
+        </div>
+
+      { /* seventh Section */}
+      <div className="w-full flex justify-center items-center h-[45vh]">
+        <div className="w-[70%] text-center">
+          <div className="flex flex-col gap-8">
+            <h2 className="text-5xl font-argent">
+             Why Partner With Servita
+            </h2>
+          </div>
+        </div>
+      </div>
+      <div className="grid md:grid-cols-3 gap-10 text-center">
+      <div className="space-y-4">
+        <div className="flex justify-center">
+          <div className="text-4xl">
+            <PiHeadsetBold /> <span></span>
+          </div>
+        </div>
+         <h3 className="text-3xl font-semibold leading-snug">
+              Strengthen Customer Trust
+          </h3>
+          <p className="text-lg px-20 text-gray-100">
+              You position your organisation as proactive, informed, and genuinely helpful at a moment when SMEs feel uncertain.
+            </p>
+      </div> 
+      </div>
       </div>
     </div>
   );
