@@ -60,6 +60,39 @@ const Home = () => {
       <div className="mb-20">
         <ThirdSection/>
       </div>
+      {/* Fourth section */}
+      <div className="w-full flex justify-center items-center">
+        <div className="w-[70%] text-center">
+          <div className="flex flex-col gap-8">
+            <h2 className="text-5xl font-argent">
+               Who You're Working With
+            </h2>
+          </div>
+        </div>
+      </div>
+        {/* Video Section */}
+       <div className="w-full flex justify-center items-center py-16">
+       <div className="w-[85%] aspect-video">
+       <iframe
+         className="w-full h-full rounded-lg"
+         src="/video1.mp4"
+         title=""
+         allowFullScreen
+        >
+       </iframe>
+      
+        </div>
+     </div>
+        {/* Fifth section */}
+       <div className="w-full flex justify-center items-center">
+        <div className="w-[70%] text-center">
+          <div className="flex flex-col gap-8">
+            <h2 className="text-5xl font-argent">
+               Why Organisations Like Yours Are<br></br> Partnering With Servita
+            </h2>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
