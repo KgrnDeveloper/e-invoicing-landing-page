@@ -1,5 +1,7 @@
 import ThirdSection from "@/components/ThirdSection";
 import Link from "next/link";
+import { FaRegHandshake, FaRegLightbulb } from "react-icons/fa";
+import { BiError } from "react-icons/bi";
 import React from "react";
 
 const Home = () => {
@@ -58,40 +60,107 @@ const Home = () => {
       </div>
       {/* Third Section  */}
       <div className="mb-20">
-        <ThirdSection/>
+        <ThirdSection />
       </div>
       {/* Fourth section */}
       <div className="w-full flex justify-center items-center">
         <div className="w-[70%] text-center">
           <div className="flex flex-col gap-8">
-            <h2 className="text-5xl font-argent">
-               Who You're Working With
-            </h2>
+            <h2 className="text-5xl font-argent">Who You're Working With</h2>
           </div>
         </div>
       </div>
-        {/* Video Section */}
-       <div className="w-full flex justify-center items-center py-16">
-       <div className="w-[85%] aspect-video">
-       <iframe
-         className="w-full h-full rounded-lg"
-         src="/video1.mp4"
-         title=""
-         allowFullScreen
-        >
-       </iframe>
-      
+      {/* Video Section */}
+      <div className="w-full flex justify-center items-center py-16">
+        <div className="w-[85%] aspect-video">
+          <iframe
+            className="w-full h-full rounded-lg"
+            src="/video1.mp4"
+            title=""
+            allowFullScreen
+          ></iframe>
         </div>
-     </div>
-        {/* Fifth section */}
-       <div className="w-full flex justify-center items-center">
+      </div>
+      {/* Fifth section */}
+      <div className="w-full flex flex-col mb-20 justify-center items-center">
         <div className="w-[70%] text-center">
           <div className="flex flex-col gap-8">
             <h2 className="text-5xl font-argent">
-               Why Organisations Like Yours Are<br></br> Partnering With Servita
+              Why Organisations Like Yours Are<br></br> Partnering With Servita
             </h2>
           </div>
         </div>
+        <div className="md:gap-[1rem] w-[80vw] mt-20 p-0 m-0 space-y-6 md:space-y-8 lg:space-y-0 lg:grid lg:grid-cols-3 lg:gap-6 xl:gap-8">
+          {/* Card 1 */}
+          <div className="relative rounded-2xl px-4 pt-4 pb-4 md:px-[41px] md:pt-[34px] md:pb-[48px] transition-all duration-300 overflow-hidden hover:shadow-2xl border-[1.37px] border-[#262626] bg-gradient-to-br from-[#0c0c0c] to-[#360000] h-auto">
+            <div className="relative z-10 w-full md:max-w-none lg:max-w-[410px]">
+              <div className="flex items-center lg:flex-col lg:items-start lg:gap-[20px]">
+                <div className="text-5xl">
+                  <FaRegLightbulb />
+                </div>
+
+                <h4 className="text-[22px] lg:text-[30px] text-white font-argent">
+                  Your Customers Are Thinking About AI
+                </h4>
+              </div>
+
+              <p className="text-gray-100 lg:text-[15px] mt-[16px] font-inter leading-[29px]">
+                SMEs know AI matters, but most don't know where to start. Some
+                ask directly. Others worry quietly and look elsewhere for
+                answers.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 2 */}
+          <div className="relative rounded-2xl px-4 pt-4 pb-4 md:px-[41px] md:pt-[34px] md:pb-[48px] transition-all duration-300 overflow-hidden hover:shadow-2xl border-[1.37px] border-[#262626] bg-gradient-to-br from-[#0c0c0c] to-[#360000] h-auto">
+            <div className="relative z-10 w-full md:max-w-none lg:max-w-[410px]">
+              <div className="flex items-center lg:flex-col lg:items-start lg:gap-[20px]">
+                <div className="text-5xl">
+                  <FaRegHandshake />
+                </div>
+
+                <h4 className="text-[22px] lg:text-[30px] text-white font-argent">
+                  Your Customers Are Thinking About AI
+                </h4>
+              </div>
+
+              <p className="text-gray-100 lg:text-[15px] mt-[16px] font-inter leading-[29px]">
+                SMEs know AI matters, but most don't know where to start. Some
+                ask directly. Others worry quietly and look elsewhere for
+                answers.
+              </p>
+            </div>
+          </div>
+
+          {/* Card 3 */}
+          <div className="relative rounded-2xl px-4 pt-4 pb-4 md:px-[41px] md:pt-[34px] md:pb-[48px] transition-all duration-300 overflow-hidden hover:shadow-2xl border-[1.37px] border-[#262626] bg-gradient-to-br from-[#0c0c0c] to-[#360000] h-auto">
+            <div className="relative z-10 w-full md:max-w-none lg:max-w-[410px]">
+              <div className="flex items-center lg:flex-col lg:items-start lg:gap-[20px]">
+                <div className="text-5xl">
+                  <BiError />
+                </div>
+
+                <h4 className="text-[22px] lg:text-[30px] text-white font-argent">
+                  Your Customers Are Thinking About AI
+                </h4>
+              </div>
+
+              <p className="text-gray-100 lg:text-[15px] mt-[16px] font-inter leading-[29px]">
+                SMEs know AI matters, but most don't know where to start. Some
+                ask directly. Others worry quietly and look elsewhere for
+                answers.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10">
+          <p className="font-argent text-3xl">That's exactly where Servita fits.</p>
+        </div>
+      </div>
+      {/* Sixth section  */}
+      <div>
+        
       </div>
     </div>
   );
