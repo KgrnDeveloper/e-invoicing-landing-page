@@ -20,5 +20,5 @@ jobs:
 
       - name: Build and push image
         run: |
-          docker build -t ghcr.io/${{ github.repository }}:latest .
-          docker push ghcr.io/${{ github.repository }}:latest
+          docker build -t ghcr.io/kgrndeveloper/e-invoicing-landing-page:latest .
+          docker push ghcr.io/kgrndeveloper/e-invoicing-landing-page:latest
