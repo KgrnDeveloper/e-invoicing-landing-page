@@ -10,7 +10,10 @@ import { PiHeadsetBold } from "react-icons/pi";
 import { RiFocus2Line } from "react-icons/ri";
 import { BsCash } from "react-icons/bs";
 import { GoShieldCheck } from "react-icons/go";
+import { TiTick } from "react-icons/ti";
 import React from "react";
+import EleventhSection from "@/components/EleventhSection";
+import FaqSection from "@/components/FaqSection";
 
 const Home = () => {
   return (
@@ -391,6 +394,221 @@ const Home = () => {
             No exclusivity. No quotas. No minimums. No obligation.
           </p>
         </div>
+      </div>
+      {/* Tenth Section  */}
+      <div className="w-full font-inter flex flex-col justify-center items-center">
+        <div className="text-center space-y-8 mb-16 flex flex-col items-center justify-center">
+          <h2 className="text-6xl font-argent">
+            What Your Customers Can Access
+          </h2>
+          <p className="w-[50vw] font-inter font-normal text-lg text-gray-100">
+            The same transformation approach used by enterprises and
+            governments, now packaged into a fixed-price assessment designed for
+            SMEs.
+          </p>
+        </div>
+        <div className="w-[70vw] flex justify-around">
+          <div className="border-y border-l rounded-tl-2xl rounded-bl-2xl mt-8 p-6">
+            <div className="space-y-2 pb-3 border-b border-gray-600">
+              <h4 className="text-3xl font-bold">Clarity</h4>
+              <h5 className="text-xl font-bold">AED 14,000</h5>
+            </div>
+            <p className="py-5 text-sm border-b border-gray-600">
+              <span className="font-semibold">
+                Make the right first decision.
+              </span>{" "}
+              A complete, standalone assessment designed to replace uncertainty
+              with direction. Clarity is ideal if you want to understand where
+              AI will actually pay back, what to prioritise first, and how to
+              focus effort before spending money or time.
+            </p>
+            <ul className="py-5 border-b border-gray-600 text-sm space-y-2">
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                AI Readiness Radar
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Sector Disruption Heatmap
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                3x High-ROI Pilot Use Cases
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Year 1 Financial Payback Forecast
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                90-Day Execution Roadmap
+              </li>
+            </ul>
+            <div className="py-5 space-y-2">
+              <h6 className="text-sm font-bold">
+                Delivered within 5 business days
+              </h6>
+              <p className="text-sm mb-5">
+                Designed for teams making an important first decision.
+              </p>
+              <button className="bg-[#f25d23] w-full py-2 rounded-md hover:text-[#f25d23] hover:bg-white transition-all duration-300 cursor-pointer">
+                Choose Clarity
+              </button>
+            </div>
+          </div>
+          <div className="border rounded-2xl p-6">
+            <div className="space-y-2 pb-3 border-b border-gray-600">
+              <h4 className="text-3xl font-bold">Momentum</h4>
+              <h5 className="text-xl font-bold">AED 14,000</h5>
+            </div>
+            <p className="py-5 text-sm border-b border-gray-600">
+              <span className="font-semibold">
+                Turn the right decisions into action.{" "}
+              </span>{" "}
+              Turn the right decisions into action. Everything in Clarity, plus
+              deeper analysis to remove execution risk. Momentum is ideal if you
+              want confidence not just in what to do, but how to launch quickly
+              and avoid early mistakes. This is the most common choice for SMEs
+              who want clarity without overbuying.
+            </p>
+            <ul className="py-5 border-b border-gray-600 text-sm space-y-2">
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                AI Readiness Radar
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Sector Disruption Heatmap
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                3x High-ROI Pilot Use Cases
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Year 1 Financial Payback Forecast
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                90-Day Execution Roadmap
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Expert Risk & Action Notes
+              </li>
+            </ul>
+            <div className="py-5 space-y-2">
+              <h6 className="text-sm font-bold">
+                Delivered within 5 business days
+              </h6>
+              <p className="text-sm mb-5">
+                Designed for teams making an important first decision.
+              </p>
+              <button className="bg-[#f25d23] w-full py-2 rounded-md hover:text-[#f25d23] hover:bg-white transition-all duration-300 cursor-pointer">
+                Choose Clarity
+              </button>
+            </div>
+          </div>
+          <div className="border-y border-r rounded-tr-2xl rounded-br-2xl mt-8 p-6">
+            <div className="space-y-2 pb-3 border-b border-gray-600">
+              <h4 className="text-3xl font-bold">Clarity</h4>
+              <h5 className="text-xl font-bold">AED 14,000</h5>
+            </div>
+            <p className="py-5 text-sm border-b border-gray-600">
+              <span className="font-semibold">
+                Make the right first decision.
+              </span>{" "}
+              A complete, standalone assessment designed to replace uncertainty
+              with direction. Clarity is ideal if you want to understand where
+              AI will actually pay back, what to prioritise first, and how to
+              focus effort before spending money or time.
+            </p>
+            <ul className="py-5 border-b border-gray-600 text-sm space-y-2">
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                AI Readiness Radar
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Sector Disruption Heatmap
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                3x High-ROI Pilot Use Cases
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                Year 1 Financial Payback Forecast
+              </li>
+              <li className="flex items-center gap-1">
+                <span className="text-2xl text-[#f25d23]">
+                  <TiTick />
+                </span>
+                90-Day Execution Roadmap
+              </li>
+            </ul>
+            <div className="py-5 space-y-2">
+              <h6 className="text-sm font-bold">
+                Delivered within 5 business days
+              </h6>
+              <p className="text-sm mb-5">
+                Designed for teams making an important first decision.
+              </p>
+              <button className="bg-[#f25d23] w-full py-2 rounded-md hover:text-[#f25d23] hover:bg-white transition-all duration-300 cursor-pointer">
+                Choose Clarity
+              </button>
+            </div>
+          </div>
+        </div>
+        <div className="w-full flex flex-col items-center justify-center">
+          <p className="w-[50vw] mt-6 text-center">
+            All assessments are standalone and delivered within five business
+            days. The difference between tiers is depth of confidence, not
+            speed.
+          </p>
+          <h5 className="my-6 font-argent text-3xl">
+            We Only Accept a Limited Number of Clients Each Month to Ensure
+            Quality
+          </h5>
+        </div>
+      </div>
+      {/* Eleventh Section  */}
+      <div className="w-full">
+        <EleventhSection />
+      </div>
+      {/* Twelveth Section  */}
+      <div className="w-full">
+        <FaqSection />
       </div>
     </div>
   );
