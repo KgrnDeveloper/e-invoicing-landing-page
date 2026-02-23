@@ -79,20 +79,20 @@ const ThirdSection = () => {
   };
 
   return (
-    <div className="w-[80vw] pb-10 mx-auto">
+    <div className="w-[80vw] pt-14 lg:pt-0 pb-10 mx-auto">
       <div
-        className={`w-full flex gap-10 transition-all duration-500 ${
+        className={`w-full flex lg:flex-row flex-col gap-10 transition-all duration-500 ${
           animate ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
         }`}
         key={currentSlide}
       >
-        <div className="w-[60%] my-auto">
-          <h2 className="font-argent text-[20px] lg:text-[36px] font-medium leading-[38px] mb-10">
+        <div className="lg:w-[60%] my-auto">
+          <h2 className="font-argent text-[20px] lg:text-[36px] lg:text-start text-center font-medium leading-[38px] mb-10">
             {slides[currentSlide].title}
           </h2>
           <div className="flex flex-col gap-3">
             {slides[currentSlide].content.map((text, idx) => (
-              <p key={idx} className="font-inter leading-[24px] text-gray-100">
+              <p key={idx} className="font-inter lg:text-start text-center leading-[24px] text-gray-100">
                 {text}
               </p>
             ))}
